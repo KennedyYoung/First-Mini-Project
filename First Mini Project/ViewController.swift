@@ -15,5 +15,12 @@ class ViewController: UIViewController {
     }
 
 
-}
+    @IBOutlet weak var show: UILabel!
 
+    @IBOutlet weak var name: UILabel!
+    
+    @IBOutlet weak var blank: UILabel!
+    @IBAction func clickHere(_ sender: Any) {
+        blank.text = "Greys Anatomy"
+        }
+}
